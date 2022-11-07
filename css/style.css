@@ -1,0 +1,30 @@
+/* Fontes */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
+
+/* Estilos Gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+}
+
+.attribution {
+  background-color: var(--DarkBlue);
+  text-align: center;
+  width: 100%;
+  color: var(--White);
+  padding: 10px 0;
+  font-family: var(--Fraunces);
+}
+.attribution a {
+  color: var(hsl(212, 27%, 19%));
+  font-family: var(--Barlow);
+  font-style: italic;
+  text-decoration: underline;
+}

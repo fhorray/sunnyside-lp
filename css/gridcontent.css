@@ -1,0 +1,119 @@
+/* Conteudo em GRID */
+
+.content__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.content__grid img {
+  width: 100%;
+  height: 100%;
+}
+
+.content__info {
+  width: 45%;
+  place-self: center;
+}
+
+.paragraph__content__info {
+  font-family: var(--Barlow);
+  line-height: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.title__content__info {
+  color: var(--VeryDarkDesaturatedBlue);
+  font-family: var(--Fraunces);
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.learn__more {
+  text-transform: uppercase;
+  color: var(--VeryDarkDesaturatedBlue);
+  font-family: var(--Fraunces);
+  font-weight: 900;
+  margin-top: 40px;
+}
+
+.graphic__design__info,
+.photography {
+  position: relative;
+}
+.container__content__info {
+  position: absolute;
+  bottom: 50px;
+  text-align: center;
+  width: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.paragraph__content__info {
+  font-weight: 600;
+  font-size: 1.12rem;
+}
+
+/* GRID DO FOOTER */
+
+.footer__container__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto 1fr;
+}
+
+.footer__container__grid img {
+  width: 100%;
+}
+
+.footer__menu {
+  background-color: var(--FooterColor);
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer__menu img {
+  width: 200px;
+  margin: 70px auto;
+}
+
+.navigation__footer {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  font-family: var(--Barlow);
+  font-size: 1.1rem;
+  font-weight: 600;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer__menu a {
+  color: var(--VeryDarkDesaturatedBlue);
+}
+
+.footer__menu a:hover {
+  color: var(--White);
+  transition: 0.3s;
+}
+.social__icons__container {
+  display: flex;
+  gap: 80px;
+  margin: 0 auto;
+}
+
+.social__icons__container ul img {
+  width: 30px;
+  margin: 30px 10px;
+}
+
+.social__icons__container a svg:hover {
+  fill: var(--White);
+}
