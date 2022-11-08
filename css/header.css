@@ -1,10 +1,11 @@
 /* Estilos do Header */
 
 .header {
-  background-image: url(/images/desktop/image-header.jpg);
+  background-image: url("/images/desktop/image-header.jpg");
   height: 850px;
   background-size: cover;
-  background-position: bottom;
+  background-position: center bottom;
+  background-repeat: no-repeat;
 }
 
 .header h1 {
@@ -46,12 +47,15 @@
 }
 
 .btn__contact {
+  padding: 15px 40px;
+  margin: 0 -22px;
   font-size: 18px;
   font-family: var(--Fraunces);
 }
 
 .btn__contact:hover {
   padding: 15px 40px;
+  margin: 0 -22px;
   background-color: var(--White);
   border-radius: 50px;
 }
