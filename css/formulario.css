@@ -1,0 +1,43 @@
+form h3 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: var(--Fraunces);
+  text-transform: uppercase;
+  color: var(--DarkDesaturatedCyan);
+}
+
+.formulario {
+  display: grid;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+.input {
+  width: 400px;
+  border-radius: 10px;
+  border: 2px solid var(--DarkModerateCyan);
+  padding: 10px;
+}
+
+.btn__enviar {
+  background-color: var(--DarkBlue);
+  color: var(--White);
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: var(--Barlow);
+  font-weight: 900;
+  border: none;
+}
+
+.btn__enviar:hover {
+  cursor: pointer;
+}
+.btn__enviar:active {
+  border: 1px solif var(--White);
+}
+
+textarea {
+  resize: none;
+}

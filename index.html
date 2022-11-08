@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/gridcontent.css">
   <link rel="stylesheet" href="./css/testimonial.css">
+  <link rel="stylesheet" href="./css/formulario.css">
 </head>
 
 <body>
@@ -24,7 +25,7 @@
         <li><a href="#">About</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Projects</a></li>
-        <li><a class="btn__contact" href="#">Contact</a></li>
+        <li><a class="btn__contact" href="#contact__form">Contact</a></li>
       </ul>
     </nav>
 
@@ -114,6 +115,15 @@
           <li><a href="/">Services</a></li>
           <li><a href="/">Projects</a></li>
         </ul>
+
+        <form id="contact__form" class="formulario" action="send">
+          <h3>Entre em contato:</h3>
+          <input class="input" type="text" name="Seu nome" id="#" placeholder="Digite seu nome">
+          <input class="input" type="email" name="Seu email" id="#" placeholder="Digite seu email">
+          <textarea class="input" name="" id="" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+          <input class="input btn__enviar" type="button" value="Enviar Contato">
+        </form>
+
         <div class="social__icons__container">
           <ul>
             <a href="#"><img class="social__icon" src="./images/icon-facebook.svg" alt="Icone do facebook"></a>
